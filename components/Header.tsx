@@ -7,6 +7,7 @@ import { checkUser } from "@/lib/checkUser";
 import { PricingModal } from "@/components/PricingModal";
 import { PLANS } from "@/lib/constants";
 import type { Plan } from "@/types/plans";
+import { Show, SignInButton, UserButton } from "@clerk/nextjs";
 
 export default async function Header() {
   const user = await checkUser();
