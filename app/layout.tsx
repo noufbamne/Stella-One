@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   title: "Forge - AI App Builder",
   description: "",
   icons: {
-    icon: "/logo-short.jpeg",
+    icon: "/logo-short.png",
   },
 };
 
