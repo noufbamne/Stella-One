@@ -80,9 +80,9 @@ export default function LandingPage() {
         </Badge>
 
         <h1 className="mx-auto max-w-3xl text-balance font-serif text-5xl leading-tight tracking-tight sm:text-6xl lg:text-7xl z-10">
-          <GrayTitle>Forge your dream</GrayTitle>
+          <GrayTitle>Stella dreams in prompts.</GrayTitle>
           <br />
-          <BlueTitle>from a single prompt.</BlueTitle>
+          <BlueTitle>Apps appear in minutes🎀</BlueTitle>
         </h1>
 
         <p className="mx-auto mt-6 max-w-xl text-balance text-base leading-relaxed text-white/40 z-10">
@@ -167,7 +167,7 @@ export default function LandingPage() {
             </div>
 
             <div className="mx-auto flex h-6 w-64 items-center justify-center rounded-md bg-white/5 px-3">
-              <span className="text-xs text-white/25">forge.app/workspace</span>
+              <span className="text-xs text-white/25">stella-one/workspace</span>
             </div>
           </div>
 
