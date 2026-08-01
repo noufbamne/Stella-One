@@ -28,6 +28,7 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { PricingModal } from "@/components/PricingModal";
 import type { FileData, StatusStep } from "@/types/workspace";
 
+
 // ─── Placeholder ──────────────────────────────────────────────────────────────
 
 
