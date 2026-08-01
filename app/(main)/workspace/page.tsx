@@ -1,6 +1,7 @@
 import { WorkspaceClient } from "@/components/WorkspaceClient";
 import { getWorkspaceUser, getWorkspaceById } from "@/actions/workspace";
 
+
 interface WorkspacePageProps {
   searchParams: Promise<{ prompt?: string; id?: string }>;
 }
