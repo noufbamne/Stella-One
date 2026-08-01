@@ -86,7 +86,7 @@ export default function LandingPage() {
         </h1>
 
         <p className="mx-auto mt-6 max-w-xl text-balance text-base leading-relaxed text-white/40 z-10">
-          Describe what you want to build. AI writes the code, picks the
+          Describe what you want to build. Stella writes the code, picks the
           packages, and renders a live preview all inside your browser.
         </p>
 

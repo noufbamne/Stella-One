@@ -21,7 +21,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Forge - AI App Builder",
+  title: "Stella-One - Dream it. Stella builds it.",
   description: "",
   icons: {
     icon: "/logo-short.png",
