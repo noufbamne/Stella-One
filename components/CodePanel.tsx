@@ -193,7 +193,7 @@ function SandpackInner({
     if (isExporting) return;
     setIsExporting(true);
     try {
-        
+
       const filesToZip =
         Object.keys(sandpack.files).length > 0
           ? sandpack.files
@@ -207,7 +207,7 @@ function SandpackInner({
       const zip = new JSZip();
 
       const packageJson = {
-        name: "forge-app",
+        name: "stella-one",
         version: "1.0.0",
         private: true,
         dependencies: {
@@ -234,7 +234,7 @@ function SandpackInner({
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Forge App</title>
+    <title>Stella-One App</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -266,7 +266,7 @@ root.render(<React.StrictMode><App /></React.StrictMode>);`
 
       zip.file(
         "README.md",
-        `# Forge App\n\nGenerated with [Forge](https://forge.app).\n\n## Getting started\n\n\`\`\`bash\nnpm install\nnpm start\n\`\`\``
+        `# Stella-One\n\nGenerated with [Stella-One](https://stella-one.app).\n\n## Getting started\n\n\`\`\`bash\nnpm install\nnpm start\n\`\`\``
       );
 
       const blob = await zip.generateAsync({ type: "blob" });
@@ -278,7 +278,7 @@ root.render(<React.StrictMode><App /></React.StrictMode>);`
             .toLowerCase()
             .replace(/[^a-z0-9]+/g, "-")
             .replace(/^-|-$/g, "")}.zip`
-        : "forge-app.zip";
+        : "stella-one.zip";
       a.download = zipName;
       a.click();
       URL.revokeObjectURL(url);

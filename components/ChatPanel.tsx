@@ -211,7 +211,7 @@ export function ChatPanel({
                   <div className="flex items-start gap-2">
                     <Image
                       src="/logo-short.png"
-                      alt="Forge"
+                      alt="Stella"
                       width={24}
                       height={24}
                       className="mt-0.5 h-6 w-6 shrink-0 rounded-md"
@@ -258,7 +258,7 @@ export function ChatPanel({
             <div className="flex items-start gap-2">
               <Image
                 src="/logo-short.png"
-                alt="Forge"
+                alt="Stella"
                 width={24}
                 height={24}
                 className="mt-0.5 h-6 w-6 shrink-0 rounded-md"
