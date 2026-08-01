@@ -20,6 +20,7 @@ import { createClient } from "@supabase/supabase-js";
 import { BlueTitle } from "./reusables";
 import Image from "next/image";
 
+
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
@@ -107,7 +108,7 @@ export function ChatPanel({
     }
   };
 
-  
+
   const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file || !file.type.startsWith("image/")) return;
