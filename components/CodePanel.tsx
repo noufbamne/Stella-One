@@ -193,6 +193,7 @@ function SandpackInner({
     if (isExporting) return;
     setIsExporting(true);
     try {
+        
       const filesToZip =
         Object.keys(sandpack.files).length > 0
           ? sandpack.files
