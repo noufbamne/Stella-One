@@ -22,7 +22,7 @@ export default async function Header() {
             alt="Stella"
             width={100}
             height={100}
-            className="h-9 w-auto rounded-md"
+            className="h-26 w-auto rounded-md"
           />
         </Link>
 
