@@ -32,10 +32,10 @@ export async function getUserProjects(): Promise<ProjectSummary[]> {
     orderBy: { updatedAt: "desc" },
   });
 
-  return workspaces.map((w: any) => {
+  return workspaces.map((w) => {
     const msgs = Array.isArray(w.messages) ? w.messages : [];
     const firstUserMsg = msgs.find(
-      (m): m is { role: string; content: string } =>
+      (m: unknown): m is { role: string; content: string } =>
         typeof m === "object" &&
         m !== null &&
         (m as Record<string, unknown>).role === "user"
